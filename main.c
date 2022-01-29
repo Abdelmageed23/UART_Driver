@@ -20,7 +20,7 @@ void main()
 	/*	Application Run Time*/
 	while(1)
 	{
-		UART_ReceiveString(&string);
+		UART_ReceiveString(string);
 		UART_SendString("Echo : ");
 		UART_SendString(string);
 		UART_SendString("\n\r");
